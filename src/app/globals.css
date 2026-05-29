@@ -3,25 +3,100 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Backgrounds */
+  --background: 222 47% 7%;
+  --surface: 222 40% 11%;
+  --surface-elevated: 222 38% 14%;
+
+  /* Brand */
+  --primary: 217 91% 60%;
+  --primary-hover: 217 91% 65%;
+  --secondary: 191 91% 55%;
+
+  /* Text */
+  --text-primary: 210 40% 98%;
+  --text-secondary: 215 20% 70%;
+  --text-muted: 215 16% 47%;
+
+  /* Borders */
+  --border: 217 32% 17%;
+  --border-light: 217 32% 24%;
+
+  /* States */
+  --success: 142 76% 36%;
+  --warning: 38 92% 50%;
+  --danger: 0 84% 60%;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+
+  /* Shadows */
+  --shadow-card:
+    0 10px 30px rgba(0, 0, 0, 0.25);
+
+  /* Gradients */
+  --gradient-primary:
+    linear-gradient(
+      135deg,
+      hsl(217 91% 60%) 0%,
+      hsl(191 91% 55%) 100%
+    );
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(59, 130, 246, 0.12),
+      transparent 35%
+    ),
+    hsl(var(--background));
+
+  color: hsl(var(--text-primary));
+  font-family: var(--font-inter);
+  min-height: 100vh;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .glass-card {
+    background: rgba(17, 24, 39, 0.7);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+@layer base {
+  body {
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-inter-tight);
+    letter-spacing: -0.03em;
   }
 }
