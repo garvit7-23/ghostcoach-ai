@@ -1,13 +1,41 @@
 # 🚀 Live Demo
 
-[🌐 Live Application](YOUR_VERCEL_URL)
+[![🌐 Live Application](https://img.shields.io/badge/Live-Demo-blue)](ghostcoach-ai.garvitgupta.dev)
+[![📂 GitHub](https://img.shields.io/badge/GitHub-Repository-black)](https://github.com/garvit7-23/ghostcoach-ai)
+[![🎥 Demo Video](https://img.shields.io/badge/Video-Walkthrough-green)](https://drive.google.com/file/d/1wXD_MhTs7MQMuuFscdk0Eov45rM0f0df/view?usp=sharing)
 
-[📂 GitHub Repository](YOUR_GITHUB_URL)
+---
+# Product Screenshots
 
-[🎥 Demo Video](OPTIONAL_LOOM_URL)
+## Landing Experience
+
+![Landing Page](./screenshots/landing-page.png)
 
 ---
 
+## Onboarding Experience 
+
+![Login](./screenshots/login.png)
+
+---
+
+ ## Player Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+## Upload Station
+
+![Upload Station ](./screenshots/upload.png)
+
+---
+
+## Context-Aware Coaching Chat 
+
+![Chat](./screenshots/chat.png)
+
+---
 # Highlights
 
 ### AI-Powered Basketball Coaching Platform
