@@ -1,6 +1,6 @@
 # 🚀 Live Demo
 
-[![🌐 Live Application](https://img.shields.io/badge/Live-Demo-blue)](ghostcoach-ai.garvitgupta.dev)
+[![🌐 Live Application](https://img.shields.io/badge/Live-Demo-blue)](https://ghostcoach-ai.garvitgupta.dev)
 [![📂 GitHub](https://img.shields.io/badge/GitHub-Repository-black)](https://github.com/garvit7-23/ghostcoach-ai)
 [![🎥 Demo Video](https://img.shields.io/badge/Video-Walkthrough-green)](https://drive.google.com/file/d/1wXD_MhTs7MQMuuFscdk0Eov45rM0f0df/view?usp=sharing)
 
