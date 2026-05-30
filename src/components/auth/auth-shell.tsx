@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 type AuthShellProps = {
   title: string;
@@ -345,6 +347,29 @@ export function AuthShell({
               max-w-md
             "
           >
+
+            <Link
+              href="/"
+              className="
+                mb-8
+
+                inline-flex
+                items-center
+                gap-2
+
+                text-sm
+                text-slate-400
+
+                transition-colors
+
+                hover:text-white
+              " 
+            >
+              <ArrowLeft className="h-4 w-4" />
+               Back to Home
+            </Link>
+
+
             {/* HEADER */}
             <div>
               <h1
